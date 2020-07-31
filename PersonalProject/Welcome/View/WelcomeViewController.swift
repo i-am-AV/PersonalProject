@@ -73,7 +73,7 @@ extension WelcomeViewController {
     private func configurateView() {
         
         view.backgroundColor = .white
-        
+        navigationController?.navigationBar.isHidden = true
         view.addSubview(stackView)
         configurateStackView()
         addConstraintForStackView()

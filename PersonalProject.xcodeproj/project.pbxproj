@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9512537C24D49FEC00F1761D /* ChoiceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512537B24D49FEC00F1761D /* ChoiceInteractor.swift */; };
+		9512537E24D4B58200F1761D /* ChoicePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512537D24D4B58200F1761D /* ChoicePresenter.swift */; };
+		9512538024D4B7A000F1761D /* ChoiceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512537F24D4B7A000F1761D /* ChoiceEntity.swift */; };
+		9512538224D4B7C400F1761D /* ChoiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512538124D4B7C400F1761D /* ChoiceRouter.swift */; };
+		9512538424D4BC6300F1761D /* ChoiceDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512538324D4BC6300F1761D /* ChoiceDataStore.swift */; };
+		9512538624D4BCAE00F1761D /* ChoiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512538524D4BCAE00F1761D /* ChoiceAssembly.swift */; };
 		9598524824AA4F80001CA962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598524724AA4F80001CA962 /* AppDelegate.swift */; };
 		9598525124AA4F81001CA962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9598525024AA4F81001CA962 /* Assets.xcassets */; };
 		9598525424AA4F81001CA962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9598525224AA4F81001CA962 /* LaunchScreen.storyboard */; };
@@ -21,6 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9512537B24D49FEC00F1761D /* ChoiceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceInteractor.swift; sourceTree = "<group>"; };
+		9512537D24D4B58200F1761D /* ChoicePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicePresenter.swift; sourceTree = "<group>"; };
+		9512537F24D4B7A000F1761D /* ChoiceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceEntity.swift; sourceTree = "<group>"; };
+		9512538124D4B7C400F1761D /* ChoiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceRouter.swift; sourceTree = "<group>"; };
+		9512538324D4BC6300F1761D /* ChoiceDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceDataStore.swift; sourceTree = "<group>"; };
+		9512538524D4BCAE00F1761D /* ChoiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceAssembly.swift; sourceTree = "<group>"; };
 		9598524424AA4F80001CA962 /* PersonalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9598524724AA4F80001CA962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9598525024AA4F81001CA962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +59,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9512537324D4882000F1761D /* Choice */ = {
+			isa = PBXGroup;
+			children = (
+				9512537424D497E800F1761D /* View */,
+				9512537524D497F000F1761D /* Interactor */,
+				9512537624D4981D00F1761D /* Presenter */,
+				9512537724D4982000F1761D /* Entity */,
+				9512537824D4982300F1761D /* Router */,
+				9512537924D4985000F1761D /* DataStore */,
+				9512537A24D4985B00F1761D /* Assembly */,
+			);
+			path = Choice;
+			sourceTree = "<group>";
+		};
+		9512537424D497E800F1761D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD607A9624C56184004AC341 /* ChoiceViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9512537524D497F000F1761D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9512537B24D49FEC00F1761D /* ChoiceInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9512537624D4981D00F1761D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9512537D24D4B58200F1761D /* ChoicePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9512537724D4982000F1761D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9512537F24D4B7A000F1761D /* ChoiceEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9512537824D4982300F1761D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9512538124D4B7C400F1761D /* ChoiceRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9512537924D4985000F1761D /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				9512538324D4BC6300F1761D /* ChoiceDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		9512537A24D4985B00F1761D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				9512538524D4BCAE00F1761D /* ChoiceAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
 		9598523B24AA4F80001CA962 = {
 			isa = PBXGroup;
 			children = (
@@ -67,8 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				9598524724AA4F80001CA962 /* AppDelegate.swift */,
+				9512537324D4882000F1761D /* Choice */,
 				FD607A8124C49569004AC341 /* Welcome */,
-				FD607A9624C56184004AC341 /* ChoiceViewController.swift */,
 				9598525024AA4F81001CA962 /* Assets.xcassets */,
 				9598525224AA4F81001CA962 /* LaunchScreen.storyboard */,
 				9598525524AA4F81001CA962 /* Info.plist */,
@@ -80,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				FD607A8224C4957A004AC341 /* View */,
-				FD607A8824C495C7004AC341 /* Iteractor */,
+				FD607A8824C495C7004AC341 /* Interactor */,
 				FD607A8524C495A0004AC341 /* Presenter */,
 				FD607A8724C495B5004AC341 /* Entity */,
 				FD607A8624C495AA004AC341 /* Router */,
@@ -130,12 +212,12 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		FD607A8824C495C7004AC341 /* Iteractor */ = {
+		FD607A8824C495C7004AC341 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
 				FD607A8A24C49659004AC341 /* WelcomeInteractor.swift */,
 			);
-			path = Iteractor;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		FD607A8924C495D3004AC341 /* DataStore */ = {
@@ -217,14 +299,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD607A9724C56184004AC341 /* ChoiceViewController.swift in Sources */,
+				9512538224D4B7C400F1761D /* ChoiceRouter.swift in Sources */,
+				9512537E24D4B58200F1761D /* ChoicePresenter.swift in Sources */,
 				FD607A8D24C49687004AC341 /* WelcomePresenter.swift in Sources */,
 				FD607A8024C49562004AC341 /* WelcomeViewController.swift in Sources */,
 				FD607A9124C496E4004AC341 /* WelcomeRouter.swift in Sources */,
+				9512538024D4B7A000F1761D /* ChoiceEntity.swift in Sources */,
 				FD607A8F24C496B0004AC341 /* WelcomeEntity.swift in Sources */,
+				9512538424D4BC6300F1761D /* ChoiceDataStore.swift in Sources */,
 				9598524824AA4F80001CA962 /* AppDelegate.swift in Sources */,
 				FD607A9324C4970C004AC341 /* WelcomeDataStore.swift in Sources */,
 				FD607A9524C49731004AC341 /* WelcomeAssembly.swift in Sources */,
 				FD607A8B24C49659004AC341 /* WelcomeInteractor.swift in Sources */,
+				9512538624D4BCAE00F1761D /* ChoiceAssembly.swift in Sources */,
+				9512537C24D49FEC00F1761D /* ChoiceInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
